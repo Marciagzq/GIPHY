@@ -21,7 +21,7 @@ function selectedButton(animal, limitNumber) {
 
     // this function would grab the information from an existing API
     // It has the parameters defined to search for an specific information.
-    var queryURL = ("http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=WmLVICCu0jxWYPKpqx7o5w3ubZu2Wbp1&limit=" + limitNumber + "&offset=" + offset);
+    var queryURL = ("https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=WmLVICCu0jxWYPKpqx7o5w3ubZu2Wbp1&limit=" + limitNumber + "&offset=" + offset);
     $.ajax({
         url: queryURL,
         method: "GET"
@@ -37,7 +37,7 @@ function selectedButton(animal, limitNumber) {
             var rating = (responselist[i].rating);
             var title = responselist[i].title;
             var mp4 = (responselist[i].images.downsized_still.url);
-            var gifCont = $("<div listindex='" + i + "' still='true' class='searchresult fill'><h5 class='rating'>" + rating + "</h5><img width='200px' height='200px' class='mp4' draggable='true' src='" + mp4 + "'><p class='rating' >" + title + "</p></div>")
+            var gifCont = $("<div listindex='" + i + "' still='true' class='searchresult'><h5 class='rating'>" + rating + "</h5><img width='200px' height='200px' class='mp4' src='" + mp4 + "'><p class='rating' >" + title + "</p></div>")
             $("#gif-container").append(gifCont);
         }
 
@@ -66,7 +66,7 @@ function newButton(value) {
     }
 }
 
-//
+//This function will show up the first 10 gifs *but only the previews, I defined the click function to show the actual gif.
 $(document).ready(function () {
 
     $('.col-sm-12').on('click', '.defined-button', function () {
@@ -90,7 +90,7 @@ $(document).ready(function () {
         }
     });
 
-    //I created this function to add and append the new buttons 
+    //I created this function to add and append the new buttons on the principal div with the other buttons
     for (var i = 0; i < topics.length; i++) {
         var temp = topics[i];
 
