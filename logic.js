@@ -40,7 +40,6 @@ function selectedButton(animal, limitNumber) {
             var gifCont = $("<div listindex='" + i + "' still='true' class='searchresult'><h5 class='rating'>" + rating + "</h5><img width='200px' height='200px' class='mp4' src='" + mp4 + "'><p class='rating' >" + title + "</p></div>")
             $("#gif-container").append(gifCont);
         }
-
     });
 };
 
@@ -106,4 +105,4 @@ $(document).ready(function () {
 
 
 
-
+ 
