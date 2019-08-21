@@ -35,7 +35,7 @@ To learn more about GIPHY, click [here!](https://giphy.com/)
 
 ##[Click here to see the demo](https://marciagzq.github.io/GIPHY/)
 
-![pic](\images\giphy.png)
+![pic](./images/giphy.png)
 
 
 *If any suggestion, do not hesitate to contact me on my personal email: marcia.gzq@gmail.com
