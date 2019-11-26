@@ -1,14 +1,14 @@
 
-#University of Central Florida
-###Coding Bootcamp 
+# University of Central Florida
+### Coding Bootcamp 
 #### Full Stack Developer 
 ![alt text](https://portfolium1.cloudimg.io/s/crop/128x128/https://cdn.portfolium.com/ugcs3%2Fedu%2F9tDF4wvqRdewUvBbZ97x_PegasusBrightGold150x150.png "Logo Title Text 1")
 - - -
 
-###GIPHY API
+### GIPHY API
 
 
-####Overview
+#### Overview
 
 On this code, we were challenged to use APIs and call certain information defined by parameters,
 This web application will allow the user to get some gifs and certain details of itself with it.
@@ -16,7 +16,7 @@ The user also may be able to add some new buttons with the animal, which is goin
 
 If you click a different button (animal), the gifs section will remove the previous search and it will show the new information. 
 
-#####What Language?
+##### What Language?
 
 *  Libraries and language used for accomplished this assignment 
 
@@ -33,7 +33,7 @@ To learn more about GIPHY, click [here!](https://giphy.com/)
 
 
 
-##[Click here to see the demo](https://marciagzq.github.io/GIPHY/)
+## [Click here to see the demo](https://marciagzq.github.io/GIPHY/)
 
 ![pic](./images/giphy.png)
 
